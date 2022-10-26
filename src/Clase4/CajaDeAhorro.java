@@ -1,4 +1,4 @@
-package Clase5;
+package Clase4;
 
 public class CajaDeAhorro {
 
