@@ -5,8 +5,11 @@ public class CajaDeAhorro extends Cuenta{
         super(saldoTotal);
     }
 
+    public void depositar(double depositado){
+        setSaldoTotal(getSaldoTotal()+ depositado);
 
-    @Override
+    }
+
     public void extraer(double extracto) {
         if (extracto <= getSaldoTotal()) {
              setSaldoTotal(getSaldoTotal() - extracto);
