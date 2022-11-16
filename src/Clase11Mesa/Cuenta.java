@@ -11,9 +11,7 @@ public abstract class Cuenta {
 
     public abstract void depositar(double depositado);
 
-    public void extraer(double extracto, String cnv) {
-
-    }
+    public abstract void extraer(double extracto);
 
     public double informarSaldo() {
         return this.saldoTotal;
@@ -26,6 +24,7 @@ public abstract class Cuenta {
    public Cliente getClientes() {
        return clientes;
     }
+
 
     public void setSaldoTotal(double saldoTotal) {
         this.saldoTotal = saldoTotal;

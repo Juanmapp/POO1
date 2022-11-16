@@ -14,8 +14,8 @@ public class CuentaConmitente extends Cuenta{
 
         }
 
-            @Override
-            public void extraer(double extracto, String cnv) {
+
+            public void extraer(double extracto) {
                 if (extracto <= getSaldoTotal()/2) {
                     setSaldoTotal(getSaldoTotal() - extracto);
                 } else if (cnv != "" && extracto <= getSaldoTotal() ) {
