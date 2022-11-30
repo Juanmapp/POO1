@@ -9,7 +9,8 @@ public class Empresa {
     private ArrayList<Empleado> empleados;
 
     public double calcularTotalDeSalarios(){
-        return double total = 0.0;
+      double total = 0.0;
+      return total;
     }
     public Empresa(String nombreDeFantasia) {
         this.nombreDeFantasia = nombreDeFantasia;
