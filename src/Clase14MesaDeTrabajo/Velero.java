@@ -6,6 +6,8 @@ public class Velero extends Embarcacion{
     public Velero(double precioBase, double valorAdicional) {
         super(precioBase, valorAdicional);
     }
+
+
     public boolean evaluarSiEsGrande() {
         if (this.cantidadMastiles > 4) {
             return true;

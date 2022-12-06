@@ -10,6 +10,7 @@ public abstract class Embarcacion {
     protected double eslora;
     protected Capitan capitan;
 
+
     public Embarcacion(double precioBase, double valorAdicional) {
         this.precioBase = precioBase;
         this.valorAdicional = valorAdicional;

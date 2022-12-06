@@ -7,11 +7,11 @@ public class Yate extends Embarcacion implements Comparable<Yate>{
         super(precioBase, valorAdicional);
     }
     public int compareTo(Yate yate) {
-        int yate1 = this.cantidadDeCamarotes;
-        int yate2 = yate.getCantidadDeCamarotes();
-        if (yate1 > yate2) {
+//        int yate1 = this.cantidadDeCamarotes;
+//        int yate2 = yate.getCantidadDeCamarotes();
+        if (this.cantidadDeCamarotes > yate.getCantidadDeCamarotes()) {
             return 1;
-        } else if (yate1 < yate2) {
+        } else if (this.cantidadDeCamarotes < yate.getCantidadDeCamarotes()) {
             return -1;
         }
         return 0;
